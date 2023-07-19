@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Latest App to BS</title>
+    <link rel="stylesheet" href="bulma.min.css" />
+</head>
+<body>
+    <div class="container m-3">
+        <h1 class="title">Upload App to BS</h1>
+        <div class="field">
+            <label class="label">Status</label>
+            <!-- <span class="tag is-danger" id="noStatus">Not started</span> -->
+            <span class="tag is-link" id="runningStatus">Running</span>
+            <span class="tag is-danger" id="failedStatus">Failed</span>
+            <span class="tag is-success" id="successStatus">Success</span>
+            <span class="tag is-info" id="notStarted">Not Started</span>
+        </div>
+    </div>
+
+    <div class="container m-3">
+        <div class="field">
+            <label class="label">BS_USERNAME</label>
+            <input class="input is-primary" id="username" placeholder="Enter BS username">
+        </div>
+        <div class="field">
+            <label class="label">BS_ACCESS_KEY</label>
+            <input class="input is-primary" id="password" type="password" placeholder="Enter BS access key">
+        </div>
+        <div class="field">
+            <label class="label">APP_TOKEN</label>
+            <input class="input is-primary" id="token" placeholder="Enter appcenter token">
+        </div>
+
+        <div class="field">
+            <label class="checkbox">
+                <input type="checkbox" id="remember">
+                Remember me
+            </label>
+        </div>
+
+        <div class="field">
+            <button class="button is-text is-right" id="clear">Clear</button>
+        </div>
+    </div>
+
+    <div class="container m-3">
+        <button class="button is-dark is-fullwidth" id="Android">Android</button>
+    </div>
+
+    <div class="container m-3">
+        <button class="button is-dark is-fullwidth" id="Ios"> Ios </button>
+    </div>
+
+    <!-- <div class="container m-3">
+        <button class="button is-dark is-fullwidth" id="Both"> Both </button>
+    </div> -->
+</body>
+<script src="popup.js"></script>
+</html>

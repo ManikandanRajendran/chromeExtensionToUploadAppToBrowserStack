@@ -1,0 +1,25 @@
+{
+    "name": "Upload daily QA App to BS",
+    "description": "A Chrome Extension that get the latest app from appcenter and upload it to BrowserStack",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "host_permissions": [
+        "https://*/"
+    ],
+    "permissions": [
+        "storage",
+        "alarms",
+        "notifications"
+    ],
+    "icons": {
+        "128": "assets/smartphone.png"
+    },
+    "action": {
+    "default_popup": "popup/popup.html"
+    },
+    "background":{
+        "service_worker":"background.js",
+        "type":"module"
+    }
+
+}
