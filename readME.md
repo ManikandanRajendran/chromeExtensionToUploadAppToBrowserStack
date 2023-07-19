@@ -1,5 +1,5 @@
 ## Chrome extension to get the App from `App Center` and upload to `BrowserStack`
-    This is a small Chrome extension that helps to get the latest app from the app center and upload it to BrowserStack
+> This is a small Chrome extension that helps to get the latest app from the app center and upload it to BrowserStack
 ## Steps to use:
 > - Clone the repository.
 > - Open the Chrome browser and navigate to `chrome://extensions/`.
